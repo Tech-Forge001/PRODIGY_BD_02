@@ -53,10 +53,6 @@ DELETE /users/:id → Delete a user by ID
 1️⃣ Create User
 POST http://localhost:3000/users
 Body (JSON):
-
-json
-Copy
-Edit
 {
   "name": "Aastha",
   "email": "aastha@example.com",
@@ -71,10 +67,6 @@ GET http://localhost:3000/users/<user_id_here>
 4️⃣ Update User
 PUT http://localhost:3000/users/<user_id_here>
 Body (JSON):
-
-json
-Copy
-Edit
 {
   "name": "Aastha Pathak",
   "email": "aasthapathak@example.com"
@@ -83,11 +75,14 @@ Edit
 DELETE http://localhost:3000/users/<user_id_here>
 
 🧰 Technologies Used
+
 Node.js
-
 Express.js
-
 MongoDB & Mongoose
-
 dotenv
+
+->MongoDB connection is handled in app.js file
+
+
+✅ Task 02 completed with full CRUD implementation, MongoDB integration, and Postman testing support.
 
